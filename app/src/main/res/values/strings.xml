@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">EMI Calculator</string>
+
+    <string name="todo">TODO</string>
+    <string name="no_ads">No Ads</string>
+    <string name="welcome">Welcome</string>
+    <string name="todo34">TODO34</string>
+    <string name="simple_app">Simple App</string>
+    <string name="car_emi_calculator">Car EMI Calculator</string>
+    <string name="todo3">TODO3</string>
+    <string name="car_price">Car Price</string>
+    <string name="calculate">Calculate</string>
+    <string name="years">Years</string>
+    <string name="months">Months</string>
+    <string name="choose">Choose:</string>
+    <string name="loan_terms">Loan Terms</string>
+    <string name="down_payment">Down Payment</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="interest_rate">Interest Rate</string>
+    <string name="exceeding_12_digits">Exceeding 12 digits</string>
+    <string name="textview">TextView</string>
+    <string name="todo55">TODO55</string>
+    <string name="your_emi_details">Your EMI Details</string>
+    <string name="emi_monthly_payable">EMI (monthly payable)</string>
+    <string name="textview66">TextView66</string>
+    <string name="textview77">TextView77</string>
+    <string name="textview88">TextView88</string>
+    <string name="textview99">TextView99</string>
+    <string name="textview00">TextView00</string>
+    <string name="loan_amount1">Loan amount</string>
+    <string name="distribution_of_amount">Distribution of Amount</string>
+    <string name="your_car_loan_details">Your Car Loan Details</string>
+    <string name="clear">Clear</string>
+    <string name="about_me">About</string>
+    <string name="todo56">TODO56</string>
+    <string name="click_to_know_about">Click to know ABOUT</string>
+    <string name="about_app">This EMI calculator Application enables you to calculate your EMI for any loan tenure you seek. You shall not only be able to view the summary of the Loan through Pie charts, but also can view the breakup of each re-payment for any month or year. This calculator can be used for all types of Loans - home loan, car loan, personal loan, education loan.\n
+            Created an AIDL service to calculate the EMI\n☆Calculate your total EMIs  (with multiple loans like \tcar, home)\n
+                ☆ Calculate the EMIs with tenure of years or months\n☆ Calculate Yearly or Monthly EMI Payments\n
+                ☆ Calculate Total Interest Payable\n
+                    ☆ Calculate Total (Principal + Interest) Payable\n
+                    ☆ Interest rate calculator\n
+                    ☆ Home loan eligibility calculator</string>
+
+</resources>

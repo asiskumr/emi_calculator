@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg_page"
+    android:orientation="vertical"
+    android:padding="30dp"
+
+
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingTop="30dp"
+
+
+        >
+
+        <EditText
+            android:id="@+id/car_price_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Car Price"
+            android:ems="10"
+            android:hint="@string/car_price"
+            android:inputType="number"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="20sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:layout_marginTop="5dp"
+        >
+
+        <EditText
+            android:id="@+id/down_payment_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/down_payment"
+            android:ems="10"
+            android:hint="@string/down_payment"
+            android:inputType="number"
+            android:textSize="20sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        >
+
+        <EditText
+            android:id="@+id/interest_rate_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Interest Rate"
+            android:ems="10"
+            android:hint="@string/interest_rate"
+            android:inputType="numberDecimal"
+            android:textSize="20sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:layout_marginTop="5dp"
+        >
+
+        <EditText
+            android:id="@+id/loan_terms_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/loan_terms"
+            android:ems="10"
+            android:hint="@string/loan_terms"
+            android:inputType="number"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/months_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="7dp"
+            android:text="@string/months"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/years_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:text="@string/years"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp" />
+    </RadioGroup>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+    <Button
+        android:id="@+id/calculate_btn_id"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp
+"
+        android:layout_gravity="center"
+
+        android:background="@drawable/button_rounded"
+        android:text="@string/calculate"
+        android:textColor="#ffffff"
+
+        android:textSize="22sp"
+        />
+
+    <Button
+        android:id="@+id/clear_btn1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clear_btn"
+        android:text="@string/clear"
+        android:layout_marginRight="20dp"
+        android:textSize="10sp"
+        android:layout_marginLeft="3dp"
+        android:layout_gravity="center_vertical"
+        android:onClick="clear_all_vals"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="75dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/aboutMe"
+                android:onClick="knowMe"
+                android:background="@drawable/about_me"
+                android:contentDescription="@string/todo56">
+
+            </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="14sp"
+            android:text="@string/click_to_know_about"
+            android:textColor="@color/black"></TextView>
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</LinearLayout>

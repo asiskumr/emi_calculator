@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/alegreya_sc_italic</item>
+        <item>@font/antic</item>
+        <item>@font/asap_medium_italic</item>
+        <item>@font/asset</item>
+        <item>@font/baloo</item>
+        <item>@font/bungee_shade</item>
+    </array>
+</resources>
